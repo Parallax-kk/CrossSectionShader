@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -292,13 +293,27 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: -15}
+  m_LocalRotation: {x: -0.21295276, y: 0.45384815, z: -0.11265737, w: -0.85789347}
+  m_LocalPosition: {x: 14.084766, y: 8.48455, z: -8.97797}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13099365ad9ea40499cb16f9a3a23691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PositionStep: 10
+  m_MouseSensitive: 90
 --- !u!1001 &1274801686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -363,37 +378,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3259754992447321332, guid: dc8161a32b55ba443ab54b6cdc4bcda8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3259754992808560772, guid: dc8161a32b55ba443ab54b6cdc4bcda8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3259754993431775845, guid: dc8161a32b55ba443ab54b6cdc4bcda8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3259754993504626299, guid: dc8161a32b55ba443ab54b6cdc4bcda8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3259754993810198608, guid: dc8161a32b55ba443ab54b6cdc4bcda8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3259754993840579866, guid: dc8161a32b55ba443ab54b6cdc4bcda8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4480107767316874125, guid: dc8161a32b55ba443ab54b6cdc4bcda8, type: 3}
       propertyPath: m_Name
       value: CrosssSection
-      objectReference: {fileID: 0}
-    - target: {fileID: 4480107767316874125, guid: dc8161a32b55ba443ab54b6cdc4bcda8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4480107767316874163, guid: dc8161a32b55ba443ab54b6cdc4bcda8, type: 3}
       propertyPath: m_RootOrder
