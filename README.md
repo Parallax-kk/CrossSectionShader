@@ -1,4 +1,5 @@
 # CrossSectionShader
+![ScreenshotAnim](https://user-images.githubusercontent.com/23093982/184503300-23a1aa5f-a2e0-4e03-a7ff-425491d956b8.gif)
 
 ## 概要
 断面シェーダのデモアプリケーションです
