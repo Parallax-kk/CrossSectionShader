@@ -4,6 +4,9 @@
 ## 概要
 断面シェーダのデモアプリケーションです
 
+## デモ
+https://parallax-kk.github.io/CrossSectionShaderDemo/
+
 ## 操作方法
 
 |||
